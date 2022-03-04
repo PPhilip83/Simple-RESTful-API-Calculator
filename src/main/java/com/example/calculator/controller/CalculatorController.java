@@ -1,7 +1,9 @@
-package com.example.calculator;
+package com.example.calculator.controller;
 
 import java.util.concurrent.atomic.AtomicLong;
 
+import com.example.calculator.Views;
+import com.example.calculator.Views.MyResponseViews;
 import com.example.calculator.entity.Calculator;
 import com.example.calculator.service.CalculatorService;
 import com.example.calculator.service.request.CalculatorRequest;
